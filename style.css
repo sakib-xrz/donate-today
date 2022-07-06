@@ -7,6 +7,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header part start  */
 nav{
     display: flex;
     align-items: center;
@@ -32,6 +33,7 @@ nav .text-area h1{
     line-height: 79px;
     color: #FFFFFF;
     padding-bottom: 25px;
+    margin: 0 auto;
 }
 
 nav .text-area p{
@@ -56,24 +58,28 @@ nav .text-area p{
     border-radius: 5px;
 }
 
-.heading-donate h2{
+
+/* donate part start  */
+.heading-donate h2, .heading-plan h2, .heading-subscribe h2{
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
     text-align: center;
     color: #121212;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
-.heading-donate p{
+.heading-donate p, .heading-plan p, .heading-subscribe p{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
     color: #707070;
-    margin-bottom: 70px;
+    width: 690px;
+    margin: 0 auto;
+    padding-bottom: 70px;
 }
 
 .donate{
@@ -132,4 +138,166 @@ hr{
     margin-top: 10px;
     color: #DADADA;
     margin-bottom: 50px;
+}
+
+
+/* plan part start  */
+.donate-plan{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.donate-plan .box1, .donate-plan .box2, .donate-plan .box3{
+    width: 360px;
+    border-radius: 5px;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.donate-plan .box1 img,.donate-plan .box2 img,.donate-plan .box3 img{
+    padding-bottom: 25px;
+}
+
+.donate-plan .box1 h4,.donate-plan .box2 h4,.donate-plan .box3 h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.donate-plan .box1 p,.donate-plan .box2 p,.donate-plan .box3 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    padding-bottom: 70px;
+    width: 315px;
+}
+
+.donate-plan .box1{
+    background-color: #EDF5F6;
+}
+
+.donate-plan .box2{
+    background-color: #FFEEEE;
+}
+
+.donate-plan .box3{
+    background-color: #FFF4D6;
+}
+
+/* registration part start  */
+.registration{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.registration .half-width{
+    width: 50%;
+}
+
+.registration .half-width img{
+    width: 100%;
+    height: 100%;
+}
+
+#reg-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15181D;
+    text-align: center;
+}
+
+#reg-text h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#reg-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #6b7483;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* subscribe part start */
+.subscribe {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    background-color: #FFF4D6;
+    padding: 80px 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+#email{
+    font-size: 15px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    background-color: #D9D9D9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#button-subscribe{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px 12px;
+    text-decoration: none;
+    background: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    margin-left: -5px;
+}
+
+/* footer part start  */
+footer{
+    background-color: #0B0D17; 
+    text-align: center;
+}
+
+footer h3{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    padding-top: 50px;
+}
+
+footer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+footer a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FF5959;
+    text-decoration: none;
 }
